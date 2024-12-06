@@ -49,6 +49,15 @@ hr {
 	border-color: #555555;
 }
 
+q,
+cite {
+  display: block;
+}
+
+cite::before {
+  content: "~ ";
+}
+
 /* Layout */
 
 .container {
